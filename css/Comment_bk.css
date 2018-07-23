@@ -1,0 +1,184 @@
+@CHARSET "utf-8";
+/**---------------------------END----------------------------*/
+/** 10085281 20150728   杩藉姞 */
+/**---------------------------BEGIN--------------------------*/
+html {
+    -webkit-text-size-adjust: none;
+    font-family:"Tahoma";
+}
+/**---------------------------END----------------------------*/
+*{
+    color: white;
+}
+#divTitle
+{
+    position:absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height:35px;
+    font-weight:bold;
+    margin: 0px;
+    padding: 0px;
+    font-size:20px;
+    text-align: center;
+    line-height: 35px;
+    display: block;
+}
+#hr{
+    position:absolute;
+    width:100%;
+    top:35px;
+    left:0px;
+    font-size:12px;
+    padding:10px 0px 10px 15px;
+    border-top: 1px solid #89c3eb;
+    border-bottom: 1px solid #89c3eb;
+    display: block;
+}
+#tbTitle
+{
+    font-size:12px;
+    height:60px;
+    border-spacing:0px;
+}
+#tbTitle td{
+    margin: 5px;
+}
+
+.animation {
+    position: relative;
+    top:0px;
+    border-radius: 3px;
+    line-height: 33px;
+    width: 120px;
+    height: 33px;
+    user-select: none;
+    transition: all 0.1s ease;
+    background: #4c6473;
+    box-shadow: 0px 5px #80989b;
+    color: #fdeff2;
+    vertical-align:text-top;
+}
+.animation:hover{
+    background: #203744;
+    box-shadow: 0px 4px #5b7e91;
+    color: #fdeff2;
+}
+.animation:active{
+    box-shadow: 0px 0px;
+    top: 5px;
+}
+td{
+    text-align: center;
+    height: 28px;
+}
+
+select,input{
+    width:120px;
+    border: 1px solid #000;
+    color: black;
+}
+select{
+    padding-left: 5px;
+    height: 23px;
+    outline: none; /*去除chrome中点击之后的蓝边框*/
+    -webkit-appearance: none; /*隐藏默认样式中的小三角*/
+    -moz-appearance: none;
+    background: #fff url('http://opif0c56u.bkt.clouddn.com/select.gif') no-repeat scroll right 8px center; /*定义图片的方式设置下拉按钮*/
+    counter-reset: item; /*计数变量*/
+}
+select option{
+    color: black;
+}
+select option:nth-child(2n-1) {
+    background-color: #eaedf7;
+}
+
+#txtDate{
+    width:108px;
+}
+/**   10071978,2013/12/30銆€銆€銆€銆€杩藉姞     */
+/**---------------------------BEGIN--------------------------*/
+/** 濂囨暟琛岃壊锛�0銇嬨倝锛� */
+.evenRow{
+    background-color: rgb(255, 255, 255);
+}
+/**銆€鍋舵暟琛岃壊锛�0銇嬨倝锛� */
+.oddRow{
+    background-color: rgb(223, 220, 220);
+}
+/** 褰撳墠琛屽彉鑹� */
+.curTr{
+    background-color: #E7FDE7;
+}
+/** 褰撳墠鐐瑰嚮琛屽彉鑹� */
+.clickTr{
+    background-color:#CCFFCC;
+}
+/** 妞滅储绲愭灉琛ㄧず */
+#divResult,#divErr {
+    float: left;
+    font-size: 14px;
+    color: red;
+    font-weight: bold;
+    height: 18px;
+    vertical-align: bottom;
+    line-height: 18px;
+    margin-left: 660px;
+}
+#divResult {
+    width: 135px;
+    margin-top: 32px;
+}
+#divResultNum{
+    position: absolute;
+    top: 40px;
+    left: 730px;
+    width: 40px;
+    text-align: right;
+}
+#divErr{
+    clear: both;
+    float: left;
+    width: 135px;
+    margin-top: 12px;
+}
+#divErrNum{
+    position: absolute;
+    top: 70px;
+    left: 730px;
+    width: 40px;
+    text-align: right;
+}
+/**---------------------------END----------------------------*/
+
+/** 10071978,2014/01/02   杩藉姞 */
+/**---------------------------BEGIN--------------------------*/
+/** Loading灞� */
+#shadow{
+    background: #aaaaaa url(../../img/shadow.png) 50% 50% repeat-x;
+    opacity: .30;
+    filter:alpha(opacity=30);/*IE*/
+    top:0px;
+    display:none;
+    position: absolute;
+    z-index: 9998;
+    left: 0px;
+}
+#loading {
+    display:none;
+    position: fixed;
+    _position: absolute;
+    width: 39px;
+    height: 39px;
+    z-index: 9999;
+    background: url(../../img/loading_noBackground.gif) no-repeat;
+}
+/**---------------------------END----------------------------*/
+/** 10071978,2014/03/28   杩藉姞 */
+/**---------------------------BEGIN--------------------------*/
+.incorrectFormat{
+    color:red;
+}
+/**---------------------------END----------------------------*/
